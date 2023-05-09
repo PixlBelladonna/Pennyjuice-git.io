@@ -1,0 +1,186 @@
+@charset "utf-8";
+/*CSS document*/
+body {
+    background-size: cover;
+    font-family: Helvetica, Arial, sans serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: avenir;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    background-color:#FFFFFF;
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    background-color:#99cc66;
+    text-align:center;
+    padding: 25px;
+    float: inherit;
+    
+}
+.header p {
+    float: left;
+    margin-top: inherit
+}
+
+.nav {
+    width: 100%;
+    height: 85px;
+    background-color:#009900;
+}
+
+.nav p {
+    font-family: arial;
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+    padding: 0px 20px;
+    float: left;
+}
+
+.nav ul {
+    float: left;
+    
+}
+
+.nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+.nav ul li a {
+    display: block;
+    font-family: avenir;
+    color: white;
+    font-size: 20px;
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: #009900;
+    
+}
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #99cc66;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+#container2 {
+    background-color: #FFFFFF;
+}
+.homepage {
+    background-color: #FFFFFF;
+}
+.homepage h1 {
+    
+}
+.homepage p {
+    
+}
+.hompage ul li {
+    
+}
+.homepage ul li a {
+    
+}
+#container3 {
+    float: left;
+}
+#container4 {
+    float: right;
+}
+.homepage h2 {
+    font-family: avenir;
+    padding: 10px 10px 10px 10px;
+    font-size: 40px;
+}
+.flavors {
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+.flavors button{
+    border-color: #99CC66;
+    background-color: #99CC66;
+    font-family: avenir;
+    padding: 5px 5px 5px 5px;
+    border-width: thick;
+    color: white;
+    align-content: center;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: left;
+    clear: both; 
+    width: 950px;
+    height: 650px;
+}
+
+.flex-container2 > div {
+    width: 100%;
+    margin: 10px;
+    line-height: 25px; 
+    height: 600px;
+    background-color: #FFFFFF;
+}
+.MissionHealth {
+    background-color: #FFFFFF;
+}
+.MissionHealth h1{
+    font-family: avenir;
+    padding: 7px 7px 7px 7px;
+    font-size: 40px;
+    line-height: 35px;
+    
+}
+.MissionHealth p{
+    padding: inherit;
+}
+.MissionHealth ul li{
+    float: inherit;
+    text-decoration: none;
+    list-style: none;
+    text-align: inherit;
+    display: block;
+}
+.MissionHealth ul li a{
+    background-color: #009900;
+    padding: 10px 10px 10px 10px;
+    width: 80px;
+    height: 25px;
+    color: #FFFFFF;
+}
+.MissionHealth h2{
+    font-family: avenir;
+    padding: 7px 7px 7px 7px;
+    font-size: 40px;
+}
+.flex-container3{
+    display: flex;
+    justify-content: inherit;
+    clear: both; 
+    width: 950px;
+    height: 650px;
+    padding: 20px;
+}
+.flex-container3 > div {
+    width: 100%;
+    margin: 20px;
+    line-height: 25px; 
+    height: 600px;
+    background-color: #FFFFFF;
+}
+.flex-container label {
+    font-family: avenir
+}
